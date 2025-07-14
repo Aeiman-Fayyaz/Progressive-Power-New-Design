@@ -106,3 +106,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+
+$(document).ready(function() {
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
+});

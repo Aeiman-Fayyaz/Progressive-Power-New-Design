@@ -25,7 +25,7 @@
 }
 
 body {
-    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Main Navigation Bar */
@@ -340,7 +340,7 @@ body {
 }
 
 section {
-    background-color: #EEEEEE;
+    background-color: #e7dede;
 }
 
 .card {
@@ -368,9 +368,148 @@ section {
 
 .btn {
     background-color: #8E1616 !important;
-    /* width: 50%; */
-
 }
+
+/* .vision-section{
+    background-color: #E7D283;
+} */
+.vision-para {
+    font-family: 'Roboto-black';
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.icon-container {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container.blue {
+    background-color: #dbeafe;
+    color: #2563eb;
+}
+
+.icon-container.green {
+    background-color: #dcfce7;
+    color: #16a34a;
+}
+
+.icon-container.purple {
+    background-color: #f3e8ff;
+    color: #9333ea;
+}
+
+.icon-container.amber {
+    background-color: #fef3c7;
+    color: #d97706;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.feature-content {
+    flex: 1;
+}
+
+.feature-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.feature-description {
+    color: #4b5563;
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+}
+
+.image-wrapper {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    aspect-ratio: 4/3;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.main-image:hover {
+    transform: scale(1.05);
+}
+
+/* carousel */
+.media-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left {
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px
+}
+
+/* Next button  */
+.media-carousel .carousel-control.right {
+    right: -12px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px
+}
+
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.media-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+.media-carousel img {
+    width: 250px;
+    height: 100px
+}
+
+/* End carousel */
 
 @keyframes slideUp {
     from {
